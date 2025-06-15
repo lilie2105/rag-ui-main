@@ -1,0 +1,6 @@
+langchain
+langchain-openai
+langchain_community
+pymupdf
+streamlit
+yaml
