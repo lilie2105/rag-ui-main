@@ -26,7 +26,7 @@ def read_config(file_path):
             print(f"Error reading YAML file: {e}")
             return None
 
-# config = read_config("secrets/config.yaml")
+config = read_config("secrets/config.yaml")
 
 embedder = AzureOpenAIEmbeddings(
     azure_endpoint=config["embedding"]["azure_endpoint"],
